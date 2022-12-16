@@ -58,9 +58,13 @@ is clicked.
 2.) add click event listener to idenify employeeID clicked upon
     a.) store that employeeID in a variable using the deconstruct method
 2.) define a function to find the employee for an order
-    1.) define a variable array to push matching employees into ()
-    1.) iterate through the orders array
-    2.) if the the employeeID in orders array === employeeID clicked upon
-    3.) push that orders object into the newly defined variable array
-3.) define a function to iterate through the new arrya
+    1.) define a variable array to push matching employees into = 0
+    2.) iterate through the orders array
+    3.) create conditional if employee id = order.employeeID
+    4.) incriment the orders array to the previously defined variable
+    5.) return the variable
+3.) finding matching employee of employee clicked 
+    1.) use for of loop to iterate through employees array
+    2.) define variable to store output value of invoked employeeOrders function
+    3.) window alert the message 
 */
